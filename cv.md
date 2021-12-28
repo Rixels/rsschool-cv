@@ -13,4 +13,20 @@ I am 31 years old, I am from Minsk, currently working as a teacher. When I was a
     * Achieve goals
     * Diligence
     * perseverance 
-    
+
+
+    # Skills
+
+* HTML
+* CSS 
+* JavaScript 
+* Git/GitHub
+* Sony Vegas pro, Photoshop
+
+# Code Examples
+
+
+function multiply(a, b){
+ return a * b
+}
+
