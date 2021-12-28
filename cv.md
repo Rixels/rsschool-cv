@@ -15,7 +15,7 @@ I am 31 years old, I am from Minsk, currently working as a teacher. When I was a
     * perseverance 
 
 
-    # Skills
+#  Skills
 
 * HTML
 * CSS 
