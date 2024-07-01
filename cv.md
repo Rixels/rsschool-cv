@@ -37,3 +37,8 @@ function multiply(a, b){
 
 
 * Belarusian State Pedagogical University
+
+# Languages
+
+* Russian 
+* English
