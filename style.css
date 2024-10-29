@@ -56,17 +56,18 @@ a {
   text-decoration: none;
 }
 .contact-link {
-  color:#807899;
+  color: #826262b8;
+  transition: all 200ms linear;
 }
 .contact-link:hover {
-  color: tomato;
+  color: #ccac07;
 }
 
 .contact-link:visited {
-  color:#807899;
+  color: #826262b8;
   }
   .contact-link:hover {
-    color: tomato;
+    color: #ccac07;
   }
 
 .nav-link {
@@ -102,6 +103,7 @@ dt {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  box-shadow: 0 2px 35px 14px #0d0d0d4a;
 }
 
 .section {
@@ -116,11 +118,12 @@ dt {
   }
 }
 .footer-link {
-  color: rgba(91, 49, 153, 0.534)
+  color: rgba(131, 87, 33, 0.534);
+  transition: all 200ms linear;
 }
 .footer-link:visited {
-  color: rgba(91, 49, 153, 0.534)
+  color: rgba(199, 173, 67, 0.534);
 }
 .footer-link:hover {
-  color: rgba(221, 240, 239, 0.836)
+  color: rgba(221, 240, 239, 0.836);
 }

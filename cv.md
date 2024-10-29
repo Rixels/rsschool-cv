@@ -26,14 +26,31 @@ I am 31 years old, I am from Minsk, currently working as a teacher. When I was a
 # Code Examples
 
 
-function multiply(a, b){
- return a * b
-}
+    function rgb(r, g, b) {
+        const finish = compar(r) + compar(g) + compar(b);
+        return finish; }
+    function compar(x) {
+        let str = '0123456789ABCDEF';
+        let result = '';
+        if (x > 255)  x = 255;
+        if (x < 0 || x === 0)  return result = '00';
+        let y = x;
+        let sum = [];
+        while (y >= 1) {
+             sum.unshift(y % 16);
+            y = Math.floor(y / 16); }    
+        for (let i = 0; i < sum.length; i++){
+           result = `${result}${str[sum[i]]}`; }
+        if ( result.length === 1) return `0${result}`
+        return result; }
 
 # Education
 
 * Minsk State College of Music
     * guitar, conducting class
+* Belarusian State Pedagogical University
+* Chess school
+    * Candidate Master, chess player
 
 
 * Belarusian State Pedagogical University
