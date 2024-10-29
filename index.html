@@ -68,27 +68,27 @@
     </section>
     <section class="section" id="code-examples">
         <h2>Code Examples</h2>
+        <pre>
         <code>
-<pre>
     function rgb(r, g, b) {
         const finish = compar(r) + compar(g) + compar(b);
         return finish; }
     function compar(x) {
-        let str = '0123456789ABCDEF';
+        const str = '0123456789ABCDEF';
         let result = '';
         if (x > 255)  x = 255;
-        if (x < 0 || x === 0)  return result = '00';
+        if (x &lt; 0 || x === 0)  return result = '00';
         let y = x;
         let sum = [];
         while (y >= 1) {
              sum.unshift(y % 16);
             y = Math.floor(y / 16); }    
-        for (let i = 0; i < sum.length; i++){
+        for (let i = 0; i &lt; sum.length; i++){
            result = `${result}${str[sum[i]]}`; }
         if ( result.length === 1) return `0${result}`
         return result; }
-</pre>
         </code>
+        </pre>
     </section>
     <section class="section" id="education">
         <h2>Education</h2>
@@ -115,9 +115,9 @@
 </div>
 </main>
 <footer>
-    <a class="footer-link" href="https://github.com/Rixels" target="_blank"><img src="assets/icons/ghb.png" width="30px" alt="pic">&nbsp;Rixels</a>
+    <a class="footer-link" href="https://github.com/Rixels" target="_blank"><img src="assets/icons/ghb.png" width="30" alt="pic"> &nbsp;Rixels</a>
     <p class="y">2024</p>
-    <a class="footer-link" href="https://rs.school/courses/javascript-ru" target="_blank"><img src="assets/icons/rs_school_js.svg" width="40px" alt="logo">&nbsp;&nbsp;Rolling Scopes School</a>
+    <a class="footer-link" href="https://rs.school/courses/javascript-ru" target="_blank"><img src="assets/icons/rs_school_js.svg" width="40" alt="logo"> &nbsp;&nbsp;Rolling Scopes School</a>
 
 </footer>
 </body>

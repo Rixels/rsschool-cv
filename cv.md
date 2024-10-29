@@ -30,7 +30,7 @@ I am 31 years old, I am from Minsk, currently working as a teacher. When I was a
         const finish = compar(r) + compar(g) + compar(b);
         return finish; }
     function compar(x) {
-        let str = '0123456789ABCDEF';
+        const str = '0123456789ABCDEF';
         let result = '';
         if (x > 255)  x = 255;
         if (x < 0 || x === 0)  return result = '00';
