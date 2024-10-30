@@ -12,14 +12,14 @@ I am 31 years old, I am from Minsk, currently working as a teacher. When I was a
     * fast learner
     * Achieve goals
     * Diligence
-    * perseverance 
+    * perseverance
 
 
 #  Skills
 
 * HTML
-* CSS 
-* JavaScript 
+* CSS
+* JavaScript
 * Git/GitHub
 * Sony Vegas pro, Photoshop
 
@@ -38,7 +38,7 @@ I am 31 years old, I am from Minsk, currently working as a teacher. When I was a
         let sum = [];
         while (y >= 1) {
              sum.unshift(y % 16);
-            y = Math.floor(y / 16); }    
+            y = Math.floor(y / 16); }
         for (let i = 0; i < sum.length; i++){
            result = `${result}${str[sum[i]]}`; }
         if ( result.length === 1) return `0${result}`
@@ -57,5 +57,5 @@ I am 31 years old, I am from Minsk, currently working as a teacher. When I was a
 
 # Languages
 
-* Russian 
+* Russian
 * English
